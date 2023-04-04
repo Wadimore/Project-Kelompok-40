@@ -70,7 +70,7 @@ def oktal():
         print ('')
         while desimal != 0:
             hasil = desimal % 8 #angka desimal di modulus 8 untuk memperoleh sisanya
-            cetak.insert(0, str(hasil)) #digunakan untuk membalik hasil modulus. kenapa dibalika ? coba search di google dgn key word "cara konversi desimal ke okta"
+            cetak.insert(0, str(hasil)) #digunakan untuk membalik hasil modulus. kenapa dibalikan ? coba search di google dgn key word "cara konversi desimal ke okta"
             desimal = desimal//8  #bilangan desimal dibagi 8 dan tanpa menghasilkan angka koma dengan menggunakan '//' untuk mengubah nilainya. untuk keperluan modulus selanjutnya
             if desimal == 0:
                 for i in range (len(cetak)): #perulangan untuk menggabungkan angka angka hasil modulus yang sebelumnya ada di dalam list menjadi string
