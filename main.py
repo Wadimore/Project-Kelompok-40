@@ -1,7 +1,6 @@
 from kelompok import *
 
-kelompok = no_kelshift()
-kelompok.kelshift(40,6)
+kelompok = no_kelshift.kelshift(40,6)
 
 anggota1 = 'Abdul Fattah Rahmadiansyah'
 anggota2 = 'Muhammad Affan Pasha'
