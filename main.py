@@ -48,11 +48,11 @@ def biner():
         desimal = int (input('Masukan angka desimal:'))
         print ('')
         while desimal != 0:
-            hasil = desimal % 2 #angka desimal di modulus 2 untuk memperoleh sisanya
-            cetak.insert(0, str(hasil)) #digunakan untuk membalik hasil modulus. kenapa dibalika ? coba search di google dgn key word "cara konversi desimal ke biner"
-            desimal = desimal//2 #bilangan desimal dibagi 2 dan tanpa menghasilkan angka koma dengan menggunakan '//' untuk mengubah nilainya. untuk keperluan modulus selanjutnya.
+            hasil = desimal % 2 
+            cetak.insert(0, str(hasil)) 
+            desimal = desimal//2 
             if desimal == 0:
-                for i in range (len(cetak)): #perulangan untuk menggabungkan angka angka hasil modulus yang sebelumnya ada di dalam list menjadi string
+                for i in range (len(cetak)): 
                     tampil +=  cetak[i]
         print ('Hasilnya adalah : ', tampil)
         print ('')
@@ -69,11 +69,11 @@ def oktal():
         desimal = int (input('Masukan angka desimal :'))
         print ('')
         while desimal != 0:
-            hasil = desimal % 8 #angka desimal di modulus 8 untuk memperoleh sisanya
-            cetak.insert(0, str(hasil)) #digunakan untuk membalik hasil modulus. kenapa dibalikan ? coba search di google dgn key word "cara konversi desimal ke okta"
-            desimal = desimal//8  #bilangan desimal dibagi 8 dan tanpa menghasilkan angka koma dengan menggunakan '//' untuk mengubah nilainya. untuk keperluan modulus selanjutnya
+            hasil = desimal % 8 
+            cetak.insert(0, str(hasil)) 
+            desimal = desimal//8  
             if desimal == 0:
-                for i in range (len(cetak)): #perulangan untuk menggabungkan angka angka hasil modulus yang sebelumnya ada di dalam list menjadi string
+                for i in range (len(cetak)): 
                     tampil +=  cetak[i]
         print ('Hasilnya adalah : ', tampil)
         print ('')
@@ -90,7 +90,7 @@ def hexadecimal():
         desimal = int (input('Masukan angka desimal :'))
         print ('')
         while desimal != 0:
-            hasil = desimal % 16 #angka desimal di modulus dengan 16 untuk memperoleh sisanya
+            hasil = desimal % 16 
             if hasil == 10:
                 hasil = 'A'
             if hasil == 11:
@@ -103,10 +103,10 @@ def hexadecimal():
                 hasil = 'E'
             if hasil == 15:
                 hasil = 'F'
-            cetak.insert(0, str(hasil))#digunakan untuk membalik hasil modulus. kenapa dibalika ? coba search di google dgn key word "cara konversi desimal ke heksa"
-            desimal = desimal//16  #bilangan desimal dibagi 16 dan tanpa menghasilkan angka koma dengan menggunakan '//' untuk mengubah nilainya. untuk keperluan modulus selanjutnya
+            cetak.insert(0, str(hasil))
+            desimal = desimal//16 
             if desimal == 0:
-                for i in range (len(cetak)): #perulangan untuk menggabungkan angka angka hasil modulus yang sebelumnya ada di dalam list menjadi string
+                for i in range (len(cetak)): 
                     tampil +=  cetak[i]
         print ('Hasilnya adalah : ',tampil)
         print ('')
