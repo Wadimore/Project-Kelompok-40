@@ -1,5 +1,23 @@
 from kelompok import *
 
+kelompok = no_kelshift()
+kelompok.kelshift(40,6)
+
+anggota1 = 'Abdul Fattah Rahmadiansyah'
+anggota2 = 'Muhammad Affan Pasha'
+anggota3 = 'Vicky Setyo Haryadi'
+anggota4 = 'Syafiq Naufal Musyaffa'
+
+nim1 = 21120122120028 
+nim2 = 21120122140090
+nim3 = 21120122130066
+nim4 = 21120122140107
+
+print(anggota1, nim1)
+print(anggota2, nim2)
+print(anggota3, nim3)
+print(anggota4, nim4)
+
 def judul():
         return print('\n===== Program Konversi Basis Desimal ======')
 
@@ -102,24 +120,6 @@ def hexadecimal():
 
 def keluar():
     exit()
-
-kelompok = no_kelshift()
-kelompok.kelshift(40,6)
-
-anggota1 = 'Abdul Fattah Rahmadiansyah'
-anggota2 = 'Muhammad Affan Pasha'
-anggota3 = 'Vicky Setyo Haryadi'
-anggota4 = 'Syafiq Naufal Musyaffa'
-
-nim1 = 21120122120028 
-nim2 = 21120122140090
-nim3 = 21120122130066
-nim4 = 21120122140107
-
-print(anggota1, nim1)
-print(anggota2, nim2)
-print(anggota3, nim3)
-print(anggota4, nim4)
 
 judul()
 menu()
